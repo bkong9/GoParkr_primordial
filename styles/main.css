@@ -121,6 +121,7 @@ a:hover{
 	font-size: 50px;
 	color: white;
 	right: 10px;
+	position: relative;
 }
 
 nav ul{  /*this style is specific to the nav ul, not all uls*/
