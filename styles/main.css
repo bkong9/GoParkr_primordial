@@ -1,0 +1,203 @@
+body {
+	margin:0;
+	font-family: "calibri", Sans-Serif;
+	text-align: center;
+}
+
+br{
+	line-height: 200%
+}
+
+a{
+	color: black;
+	text-decoration: none !important;
+	display: inline-block;
+}
+
+a:hover{
+	color: black;
+}
+
+.logo{
+	position: absolute;
+	top: 3px;
+	left: 0px;
+}
+
+/*navbar*/
+
+.navbar{
+	font-family: 'calibri', sans-serif !important;
+	background-color: white;
+}
+
+.navbar a{
+	border-bottom: none;
+	text-shadow: 0.25px 0.25px 0.25px grey;
+	font-weight: bold;
+	color: black !important;
+}
+
+.navbar .navbar-nav{
+	float: right;
+
+}
+	
+.navbar .navbar-collapse{
+	text-align: center;
+}
+
+.navbar-brand{
+	font-size: 40px;
+	position: absolute;
+	left: 35px;
+}
+
+#bgcontainer{
+	width: 100%;
+	height: 100%;
+	height: 680px;
+	top: 0%;	
+}
+
+
+
+#bgpic {
+	width: 100%;
+	height: 100%;
+	background: url("../img/citytraffic.jpg") no-repeat fixed center;
+	top: 0px;
+	background-size: auto;
+	z-index: -99;
+	opacity: 1;
+}
+
+#bgcover{
+	width: 100%;
+	height: 100%;
+	background: #ffff66;
+	opacity: 0; /* >0 if you want cover*/
+	z-index: -98;
+}
+
+
+#bannerphrase{
+	position: absolute;
+	top:65%;
+	right: 2px;
+	font-size: 50px;
+	color: white;	
+}
+
+
+nav ul{  /*this style is specific to the nav ul, not all uls*/
+	margin:auto;
+	display: inline-block;
+
+}
+
+nav ul li{
+	margin: 0;
+	color: black;
+	display: inline-block;
+	list-style-type: none;  
+	padding: 0px 35px;
+	/*float: left;
+	text-align: center;*/
+
+}
+
+.picture
+{
+	margin:auto;
+	padding: 0px 10px 40px 0px;
+}
+
+.description{
+	margin: auto;
+	background: white;
+	color: #202020;
+	padding: 10px 30px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+
+}
+
+.linknav{
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bolder;
+	background-color: white;
+}
+
+.container{
+	width:90%;
+	height: 100%;
+	height: 680px;
+}
+
+@media (max-width: 911px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+	#bgcontainer {
+		height: 400px;
+	}
+
+	#bgpic {
+	position: relative;
+	background: url("../img/citytraffic_sm.jpg") no-repeat center;
+	}
+
+	#bannerphrase{
+		font-size: 25px;
+		top: 55%;
+	}
+
+	.linknav{
+		font-size: 20px;
+	}
+
+	.description{
+		font-size: 12px;
+		padding: 10px;
+	}
+
+}
