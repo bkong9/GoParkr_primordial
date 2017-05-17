@@ -82,18 +82,19 @@ img {
 }
 
 #bgcover{
-	width: 100%;
+	width: 50%;
 	height: 100%;
-	background: #ffff66;
-	opacity: 0; /* >0 if you want cover*/
+	background: #ffA500;
+	opacity: 0.5; /* >0 if you want cover*/
+	left: 0px;
 	z-index: -98;
 }
 
 
 #bannerphrase{
 	position: absolute;
-	top:65%;
-	right: 2px;
+	top:30%;
+	left: 10%;
 	font-size: 50px;
 	color: white;	
 }
