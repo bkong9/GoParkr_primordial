@@ -197,9 +197,15 @@ nav ul li{
 	}
 
 	#bannerphrase{
-		font-size: 25px;
-		top: 55%;
+		font-size: 20px;
+		top: 50%;
+		left: 5%;
 	}
+
+	#bgcover{
+	height: 95%;
+}
+
 
 	.linknav{
 		font-size: 20px;
