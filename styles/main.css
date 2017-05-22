@@ -129,7 +129,7 @@ nav ul li{
 	color: #202020;
 	padding: 10px 30px;
 	text-align: center;
-	font-family: 'Open  Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-weight: normal;
 
@@ -197,6 +197,7 @@ nav ul li{
 	}
 
 	#bannerphrase{
+		font-family: "Open Sans", sans-serif;
 		font-size: 25px;
 		top: 55%;
 	}
