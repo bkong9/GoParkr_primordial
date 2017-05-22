@@ -197,10 +197,17 @@ nav ul li{
 	}
 
 	#bannerphrase{
-		font-family: "Open Sans", sans-serif;
-		font-size: 25px;
-		top: 55%;
+		position: absolute;
+		top: 30%;
+		left: 10%;
+		font-size: 50px;
+		color: white;
 	}
+
+	#bgcover{
+	height: 95%;
+}
+
 
 	.linknav{
 		font-size: 20px;
