@@ -204,6 +204,12 @@ nav ul li{
 		color: white;
 	}
 
+	#bannerdl{
+		position: absolute;
+		top: 50%;
+		left: 10%;
+	}
+
 	#bgcover{
 	height: 95%;
 }
