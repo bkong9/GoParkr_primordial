@@ -1,0 +1,22 @@
+{
+  "name": "parkr-webdev",
+  "version": "1.0.0",
+  "description": "[5/27/2017] - Added blog & FAQ pages (content to come), linkedin link & icon, some adjustments on prior images, moved Contact Us section to the footer & replaced it with Owner's section.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamparkr/parkr-webdev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teamparkr/parkr-webdev/issues"
+  },
+  "homepage": "https://github.com/teamparkr/parkr-webdev#readme",
+  "dependencies": {
+    "fullpage.js": "^2.9.4"
+  }
+}
