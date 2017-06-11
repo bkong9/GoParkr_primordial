@@ -1,29 +1,48 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 	<head>
-		<title>Parkr - Mobile Parking App | Reserve & Park, Anytime Anywhere</title>
+		<title>Parkr | Test fullpage.js</title>
 		<meta charset="utf-8">
-        <meta name="viewport" content="width=device-width" initial-scale=1>
+
+		<meta name="viewport" content="width=device-width" initial-scale=1>
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="getparkr">
     	<meta name="description" content="Parkr, the mobile app for all your parking needs.">
     	<meta name="keywords" content="getparkr, parkr, parking, rental, space, private">
+
 		<link rel="stylesheet" href="styles/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="styles/main.css">
 		<link rel="stylesheet" href="styles/footer-distributed.css">
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 		<link rel="icon" href="img/favicon.ico">
+
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/jquery.fullPage.css" />
+
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+			<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+			<script type="text/javascript" src="../vendors/scrolloverflow.js"></script>
+			<script type="text/javascript" src="node_modules/fullpage.js/dist/jquery.fullPage.js"></script>
+
+			<script type="text/javascript"> $(document).ready(function() {
+				$('#fullpage').fullpage();
+				});
+			</script>
 	</head>
 
-	<body>
-		<div class="navbar navbar-default navbar-fixed-top">
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top">
 				<nav role="navigation">
 				  <div class="container-fluid">
 				    <div class="navbar-header">
 				    <img class="logo" src="img/longlogo.png" height="40">
 							<a href="#" class="navbar-brand logo"></a>
-			
 						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 						        <span class="sr-only">Toggle navigation</span>
 						        <span class="icon-bar"></span>
@@ -32,30 +51,21 @@
 						      </button>
 				    </div>
 
-				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="navbar navbar-nav navbar-right">
 				      	<li><a href="#WhoWeAre">WHO WE ARE</a></li>
 				        <li><a href="#WhatWeDo">WHAT WE DO</a></li>
 				        <li><a href="#Owners">OWNERS</a></li>
 				        <li><a href="#Download">DOWNLOAD</a></li>
-				       <!-- <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-				          <ul class="dropdown-menu">
-				            <li><a href="#">Action</a></li>
-				            <li><a href="#">Another action</a></li>
-				            <li><a href="#">Something else here</a></li>
-				            <li role="separator" class="divider"></li>
-				            <li><a href="#">Separated link</a></li>
-				          </ul>
-				        </li> -->
 				      </ul>
-				    </div><!-- /.navbar-collapse -->
-				  </div><!-- /.container-fluid -->
+				    </div>
+				  </div>
 				</nav>
 			</div>
 		</div>
-		
+
+<div id="fullpage">
+	<div class="section">
 		<div id="bgcontainer">
 			<div id= "bgpic">
 				<div id= "bgcover"></div>
@@ -63,21 +73,22 @@
 				</div>
 			</div>
 		</div>
+	</div>
 
+	<div class="section">
 		<div class="container">
-				<div class="linknav">	
-					<a name="WhoWeAre"><br>parking should be easier.</a>
-						<p class="description">
-						We help our customers by bringing seamless parking access anywhere at anytime through mobile integration. Park your way through popular events, festivals and urban cities according to your preferences.
-						</p>
-				</div>
-				<img src="img/Owner Reg_REV6.2.PNG" height=500px max-height="25%">
-				<img src="img/Menu_REV6.3.PNG" height=500x max-height="25%">
+			<div class="linknav">	
+				<a name="WhoWeAre"><br>parking should be easier.</a>
+				<p class="description">
+					We help our customers by bringing seamless parking access anywhere at anytime through mobile integration. Park your way through popular events, festivals and urban cities according to your preferences.
+				</p>
+			</div>
+				<img src="img/Owner Reg_REV6.2.PNG" height=400px max-height="25%">
+				<img src="img/Menu_REV6.3.PNG" height=400x max-height="25%">
 		</div>
-		<br/>
-		<hr/>
-		
-	
+	</div>
+
+	<div class="section">
 		<div class="container">
 			<div class="linknav">
 				<a name="WhatWeDo"><br>easy access at your fingertips.</a>
@@ -85,13 +96,12 @@
 					Whether you are in a rush or looking for a monthly parking pass, our application helps you find the cheapest and most convenient options.
 					</p>
 			</div>
-			<img src="img/manual.PNG" height=500px max-height="25%">
-			<img src="img/Notifications_REV6.3.PNG" height=500x max-height="25%">
-		</div>
-		<br/>
-		<hr/>
-	
+			<img src="img/manual.PNG" height=400px max-height="25%">
+			<img src="img/Notifications_REV6.3.PNG" height=400x max-height="25%">
+		</div>	
+	</div>
 
+	<div class="section">
 		<div class="container">
 			<div class="linknav">
 				<a name="Customers"><br>maximize your event attendance.</a>
@@ -99,12 +109,11 @@
 					Limited parking spots is always an issue for the attendee. Partner with us to ensure your events reach full occupancy.
 					</p>
 			</div>
-			<img src="img/space_description.PNG" height=500px max-height="25%">
+			<img src="img/space_description.PNG" height=400px max-height="25%">
 		</div>
-		<br/>
-		<br/>
-		<hr/>
+	</div>
 
+	<div class="section">
 		<div class="container">
 			<div class="linknav">
 				<a name="Owners"><br>list your space.</a>
@@ -112,14 +121,13 @@
 					If you have an available parking spot, host your spot for cash and rewards.
 					</p>
 			</div>
-			<img src="img/Owner Reg1.PNG" height=500px max-height="25%">
-			<img src="img/Owner Reg2.PNG" height=500px max-height="25%">
-			<img src="img/Owner Reg3.PNG" height=500px max-height="25%">
+			<img src="img/Owner Reg1.PNG" height=400px max-height="25%">
+			<img src="img/Owner Reg2.PNG" height=400px max-height="25%">
+			<img src="img/Owner Reg3.PNG" height=400px max-height="25%">
 		</div>
-		<br/>
-		<hr/>
-		
-		<div class="container">
+	</div>
+
+	<div class="container">
 			<div class="linknav">
 				<a name="Download"><br>download our app on iOS and android.</a>
 					<p class="description">
@@ -133,8 +141,9 @@
 					<img src="img/googleplay.png" height=100 width=300></a>
 			</div>
 		</div>
+</div>
 
-		<footer class="footer-distributed">
+<footer class="footer-distributed">
 			<div class="footer-right">
 				<a href="https://www.facebook.com/GoParkr/" target="_blank"><i class="fa fa-facebook"></i></a>
 				<a href="#"><i class="fa fa-twitter"></i></a>
@@ -159,9 +168,4 @@
 			</div>
 		</footer>
 
-	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-	</body>
-</html>
+</body>

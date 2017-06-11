@@ -224,4 +224,16 @@ nav ul li{
 		padding: 10px;
 	}
 
+.contain {
+max-width:960px;
+text-align:center;
+}
+
+.category {
+position:relative;
+display: inline-block;
+float:left;
+padding:10px;
+}
+
 }
