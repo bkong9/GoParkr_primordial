@@ -51,7 +51,6 @@ img {
 
 .navbar .navbar-nav{
 	float: right;
-
 }
 	
 .navbar .navbar-collapse{
@@ -68,8 +67,6 @@ img {
 	height: 680px;
 	top: 0%;	
 }
-
-
 
 #bgpic {
 	width: 100%;
@@ -224,16 +221,42 @@ nav ul li{
 		padding: 10px;
 	}
 
-.contain {
-max-width:960px;
-text-align:center;
+	.contain {
+		max-width:960px;
+		text-align:center;
+	}
+
+	.category {
+		position:relative;
+		display: inline-block;
+		float:left;
+		padding:10px;
+	}
 }
 
-.category {
-position:relative;
-display: inline-block;
-float:left;
-padding:10px;
+.faqcontainer{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 100%;
 }
 
+#faqs dt {
+	font-size: 2em;
+	color:#FF8A33;
+	cursor:pointer;
+	margin:0 0 15px;
+}
+
+#faqs dd {
+	text-align: left;
+	font-size: 1.5em;
+}
+
+#faqs dt { background: url(http://www.designonslaught.com/files/2012/06/expand-icon.png) no-repeat left}
+
+#faqs .expanded {
+	color:#FFC443;
+	background: url(http://www.designonslaught.com/files/2012/06/expanded-icon.png) no-repeat left
 }
