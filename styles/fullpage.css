@@ -1,0 +1,56 @@
+
+h1{
+	font-size: 5em;
+	font-family: 'Roboto',sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin:0;
+	padding:0;
+}
+
+h2{
+	font-size: 2em;
+	font-family: arial,helvetica;
+	color: #FFFFFF;
+	margin:0;
+	padding:0;
+}
+
+.navbar{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.logo{
+	position: absolute;
+	top:5px;
+	left: 20px;
+}
+
+.section{
+	text-align: center;
+}
+
+#section0{
+	background: url("../img/yellowtraffic.jpg") no-repeat fixed center;
+	background-size: cover;
+	z-index: -99;
+	opacity: 1;
+}
+
+.category {
+	position:relative;
+	display: inline-block;
+	padding:10px;
+}
+
+.topbox{
+	height: 60%;
+	vertical-align: top;
+}
+
+.footer{
+	height: 40%;
+	vertical-align: bottom;
+	background-color: #000000;
+}
