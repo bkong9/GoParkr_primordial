@@ -1,4 +1,13 @@
 
+html, body{
+  height: 100%;
+}
+
+div, body{
+  margin: 0;
+  padding: 0;
+}
+
 h1{
 	font-size: 4em;
 	font-family: 'Roboto',sans-serif;
@@ -10,18 +19,35 @@ h1{
 
 h2{
 	font-size: 2em;
-	font-family: arial,helvetica;
+	font-family: 'Roboto',sans-serif;
 	color: #FFFFFF;
 	margin:0;
 	padding:0;
 }
 
 label{
-	font-size: 1em;
+	font-size: 15px;
 	font-family: 'Roboto',sans-serif;
 	color: #FFFFFF;
 	margin:0;
 	padding:0;
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+
+img.screen{
+	height: 400px;
+}
+
+img.dl{
+	height: 100px;
+	width: 300px;
+}
+
+.wrapper{
+	height: 100%;
+	width: 100%;
 }
 
 .navbar{
@@ -41,9 +67,10 @@ label{
 
 #section0{
 	background: url("../img/yellowtraffictext.jpg") no-repeat fixed center;
-	background-size: cover;
-	z-index: -99;
-	opacity: 1;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
 }
 
 .category {
@@ -52,33 +79,56 @@ label{
 	padding:10px;
 }
 
-.topbox{
-	height: 60%;
-	vertical-align: top;
+.button{
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
 }
 
-.left-half{
-	position: relative;
-  float: left;
-  width: 50%;
+input{
+	width: 300px;
+  padding: 5px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
 }
 
-.right-half{
-	float: right;
-  width: 50%;
-  background-color: grey;
+input.focus{
+	border: solid 5px #969696;
 }
 
-.left-half .push-to-bottom {
-    position: absolute;
-    margin-left: 25%;
-    top: 50px;
-}
+@media (max-width: 700px){
+	#section0{
+		background: url("../img/yellowtrafficcropped.jpg") no-repeat fixed center;
+		background-position: center center;
+		background-repeat:  no-repeat;
+		background-attachment: fixed;
+		background-size:  cover;
+	}
 
-.indicates-required{
-	font-size: 1em;
-	font-family: 'Roboto',sans-serif;
-	color: #FFFFFF;
-	margin:0;
-	padding:0;
+	h1{
+		font-size: 2em;
+	}
+
+	h2{
+		font-size: 1.5em;
+	}
+
+	img.screen{
+		height: 300px;
+	}
+
+	img.dl{
+		height: 50px;
+		width: 150px;
+	}
+
+	input{
+		width:200px;
+	}
 }
