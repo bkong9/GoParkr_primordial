@@ -104,11 +104,11 @@ input.focus{
 
 @media (max-width: 700px){
 	#section0{
-		background: url("../img/yellowtrafficcropped.jpg") no-repeat fixed center;
+		background: url("../img/yellowtraffic.jpg") no-repeat fixed center;
 		background-position: center center;
 		background-repeat:  no-repeat;
 		background-attachment: fixed;
-		background-size:  contain;
+		background-size: cover;
 	}
 
 	h1{
