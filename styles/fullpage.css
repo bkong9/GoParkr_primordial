@@ -48,6 +48,7 @@ img.dl{
 .wrapper{
 	height: 100%;
 	width: 100%;
+	position: relative;
 }
 
 .navbar{
@@ -63,10 +64,11 @@ img.dl{
 
 .section{
 	text-align: center;
+	vertical-align: center;
 }
 
 #section0{
-	background: url("../img/yellowtraffictext.jpg") no-repeat fixed center;
+	background: url("../img/yellowtraffic.jpg") no-repeat fixed center;
 	background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -91,8 +93,30 @@ img.dl{
   border-radius: 8px;
 }
 
+.title{
+  font-size: 6em;
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+	position:absolute;
+	bottom: 100px;
+	right: 120px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.subtitle{
+  font-size:3.5em;
+  font-family: 'Roboto',sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  position:absolute;
+  bottom: 50px;
+  right: 60px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 input{
-	width: 300px;
+  width: 300px;
   padding: 5px;
   border: solid 5px #c9c9c9;
   transition: border 0.3s;
@@ -104,12 +128,38 @@ input.focus{
 
 @media (max-width: 700px){
 	#section0{
-		background: url("../img/yellowtrafficcropped.jpg") no-repeat fixed center;
+		background: url("../img/yellowtraffic.jpg") no-repeat fixed center;
 		background-position: center center;
 		background-repeat:  no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
 	}
+
+  .wrapper{
+    height: 100%
+    width: 100%;
+    text-align: center;
+  }
+
+  .title{
+    font-size: 4em;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    position:absolute;
+    top: 45%;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .subtitle{
+    font-size: 2em;
+    font-family: 'Roboto',sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    position:absolute;
+    top: 55%;
+    text-shadow: 2px 2px 4px #000000;
+  }
 
 	h1{
 		font-size: 2em;
