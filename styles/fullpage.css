@@ -15,6 +15,7 @@ h1{
 	color: #FFFFFF;
 	margin:0;
 	padding:0;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 h2{
@@ -23,6 +24,7 @@ h2{
 	color: #FFFFFF;
 	margin:0;
 	padding:0;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 label{
@@ -65,10 +67,31 @@ img.dl{
 .section{
 	text-align: center;
 	vertical-align: center;
+	background-size: cover;
+}
+
+.slide{
+	background-size: cover;
 }
 
 #section0{
-	background: url("../img/yellowtraffic.jpg") no-repeat fixed center;
+	background: url("../img/banners/2.png") no-repeat fixed center;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+#section1{
+	background: url("../img/banners/6.jpg") no-repeat fixed center;
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+
+#section2{
+	background: url("../img/banners/4.jpg") no-repeat fixed center;
 	background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -128,7 +151,7 @@ input.focus{
 
 @media (max-width: 700px){
 	#section0{
-		background: url("../img/yellowtraffic.jpg") no-repeat fixed center;
+		background: url("../img/banners/2.png") no-repeat fixed center;
 		background-position: center center;
 		background-repeat:  no-repeat;
 		background-attachment: fixed;
@@ -170,7 +193,7 @@ input.focus{
 	}
 
 	img.screen{
-		height: 300px;
+		height: 250px;
 	}
 
 	img.dl{
