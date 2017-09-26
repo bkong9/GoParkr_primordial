@@ -15,7 +15,7 @@ h1{
 	color: #FFFFFF;
 	margin:0;
 	padding:0;
-	text-shadow: 2px 2px 4px #000000;
+	text-shadow: 3px 3px 5px #000000;
 }
 
 h2{
@@ -75,7 +75,7 @@ img.dl{
 }
 
 #section0{
-	background: url("../img/banners/2.png") no-repeat fixed center;
+	background: url("../img/banners/PlayStoreBanner_REV0.2_Sept262017.jpg") no-repeat fixed center;
 	background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -83,7 +83,7 @@ img.dl{
 }
 
 #section1{
-	background: url("../img/banners/6.jpg") no-repeat fixed center;
+	background: url("../img/banners/2.png") no-repeat fixed center;
 	background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -91,7 +91,7 @@ img.dl{
 }
 
 #section2{
-	background: url("../img/banners/4.jpg") no-repeat fixed center;
+	background: url("../img/banners/1.jpg") no-repeat fixed center;
 	background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -124,7 +124,7 @@ img.dl{
 	position:absolute;
 	bottom: 100px;
 	right: 120px;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 3px 3px 5px #000000;
 }
 
 .subtitle{
@@ -151,7 +151,7 @@ input.focus{
 
 @media (max-width: 700px){
 	#section0{
-		background: url("../img/banners/2.png") no-repeat fixed center;
+		background: url("../img/banners/PlayStoreBanner_REV0.2_Sept262017.jpg") no-repeat fixed center;
 		background-position: center center;
 		background-repeat:  no-repeat;
 		background-attachment: fixed;
