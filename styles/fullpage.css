@@ -121,9 +121,9 @@ img.dl{
   font-family: 'Roboto',sans-serif;
   font-weight: bold;
   color: #FFFFFF;
-	position:absolute;
-	bottom: 100px;
-	right: 120px;
+  position:absolute;
+  bottom: 100px;
+  right: 120px;
   text-shadow: 3px 3px 5px #000000;
 }
 
@@ -136,6 +136,13 @@ img.dl{
   bottom: 50px;
   right: 60px;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.logo{
+	font-size: 2em;
+	font-family: 'Racing Sans One', cursive;
+	font-weight: normal;
+	color: #FFFFFF;
 }
 
 input{
