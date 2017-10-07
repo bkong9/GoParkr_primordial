@@ -1,6 +1,7 @@
 
 html, body{
   height: 100%;
+  width: 100%;
 }
 
 div, body{
@@ -56,6 +57,7 @@ img.dl{
 .navbar{
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
+	opacity: 0.9;
 }
 
 .logo{
@@ -75,7 +77,7 @@ img.dl{
 }
 
 #section0{
-	background: url("../img/banners/PlayStoreBanner_REV0.2_Sept262017.jpg") no-repeat fixed center;
+	background: url("../img/Website banner_REV2_Oct 3 2017.jpg");
 	background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -158,8 +160,8 @@ input.focus{
 
 @media (max-width: 700px){
 	#section0{
-		background: url("../img/banners/PlayStoreBanner_REV0.2_Sept262017.jpg") no-repeat fixed center;
-		background-position: center center;
+		background: url("../img/Website Banner_Mobile Optimized_Iphone6_REV1_Oct 3 2017.jpg");
+		background-position: center;
 		background-repeat:  no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
